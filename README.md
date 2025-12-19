@@ -1,5 +1,18 @@
-<h1 align="center">Full-Stack Developer | ML & AI Enthusiast</h1>
-<p align="center">Always Building, Learning & Exploring ⚡</p>
+<h1 align="center">Mukesh Narravula</h1>
+<h3 align="center">Full-Stack Developer | Applied ML & Systems Enthusiast</h3>
+
+<p align="center">
+Building scalable web applications, intelligent systems, and learning by shipping real products ⚡
+</p>
+
+---
+
+## About Me  
+
+-  Currently focused on **Full-Stack Development & Applied Machine Learning**
+- Strong interest in **backend systems, APIs, and performance-oriented design**
+- I enjoy turning ideas into **reliable, production-ready software**
+- Constantly learning, improving, and contributing to open source
 
 ---
 
@@ -15,75 +28,66 @@
 
 ---
 
-##  Tech Stack  
+## 🚀 Featured Projects  
 
-<details open>
-  <summary>Languages & Frameworks</summary>
-  <br/>
-  
-  ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
-  ![Java](https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-  ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
-  ![React](https://img.shields.io/badge/React-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
-  ![Next.js](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
-  ![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)
-  ![Flask](https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white)
-</details>
+> Selected repositories that best represent my skills and engineering focus.
 
-<details>
-  <summary> Machine Learning & AI</summary>
-  <br/>
-  
-  ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=tensorflow&logoColor=white)
-  ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=pytorch&logoColor=white)
-  ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-  ![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-  ![Pandas](https://img.shields.io/badge/Pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-  ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c.svg?style=for-the-badge&logo=plotly&logoColor=white)
-</details>
+### Auction Socket  
+Real-time, socket-based backend service designed for auctions and live updates.  
+**Tech:** Python • WebSockets • Async IO
 
-<details>
-  <summary> Databases & Tools</summary>
-  <br/>
-  
-  ![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-  ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-  ![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-  ![Redis](https://img.shields.io/badge/Redis-DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)
-  ![Firebase](https://img.shields.io/badge/Firebase-FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)
-</details>
+### Canteen Smart  
+End-to-end canteen management and ordering web application demonstrating full-stack development.  
+**Tech:** TypeScript • Frontend • Backend
 
-<details>
-  <summary> Cloud, DevOps & Collaboration</summary>
-  <br/>
-  
-  ![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
-  ![Vercel](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-  ![Git](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=git&logoColor=white)
-  ![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=github&logoColor=white)
-</details>
+### PlagCheck  
+High-performance file similarity and plagiarism detection tool built in Rust using efficient diff algorithms.  
+**Tech:** Rust • Myers Diff • CLI Tooling
+
+### Go Jupyter Converter  
+Lightweight CLI utility for processing and converting Jupyter notebook files.  
+**Tech:** Go • CLI • Developer Tooling
 
 ---
 
-##  GitHub Stats & Activity  
+## Tech Stack  
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mukesh1352&show_icons=true&theme=radical&hide_border=true" height="180em"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mukesh1352&theme=radical&hide_border=true" height="180em"/>
-</p>
+### Languages & Frameworks
+![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000.svg?style=for-the-badge&logo=rust&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A.svg?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukesh1352&layout=compact&theme=radical&hide_border=true" height="180em"/>
-</p>
+### Machine Learning & Data
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c.svg?style=for-the-badge&logo=plotly&logoColor=white)
+
+### Databases & DevOps
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
 ---
 
-## 🔝 Top Contributed Repos  
+## GitHub Stats  
 
 <p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=mukesh1352&limit=5&theme=radical&combine_all_yearly_contributions=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=mukesh1352&show_icons=true&theme=radical&hide_border=true" height="170"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mukesh1352&theme=radical&hide_border=true" height="170"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mukesh1352&layout=compact&theme=radical&hide_border=true"/>
 </p>
 
 ---
 
-<h3 align="center"> Exploring AI, scaling apps, and making ideas come alive! </h3>
+<h3 align="center">🚀 Exploring AI, backend systems, and high-performance software</h3>
