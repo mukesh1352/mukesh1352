@@ -1,22 +1,22 @@
 <h1 align="center">Mukesh Narravula</h1>
-<h3 align="center">Full-Stack Developer | Applied ML & Systems Enthusiast</h3>
+<h3 align="center">Full-Stack Developer | Applied ML & Systems Engineering</h3>
 
 <p align="center">
-Building scalable web applications, intelligent systems, and learning by shipping real products ⚡
+I build scalable web applications, backend systems, and developer tools — learning by shipping real software ⚡
 </p>
 
 ---
 
-## About Me  
+## 👨‍💻 About Me  
 
--  Currently focused on **Full-Stack Development & Applied Machine Learning**
-- Strong interest in **backend systems, APIs, and performance-oriented design**
-- I enjoy turning ideas into **reliable, production-ready software**
-- Constantly learning, improving, and contributing to open source
+- 🔭 Focused on **Full-Stack Development and Applied Machine Learning**
+- 🧠 Strong interest in **backend systems, APIs, and performance-oriented design**
+- ⚙️ Enjoy turning ideas into **reliable, maintainable, production-ready software**
+- 🌱 Actively learning, refining skills, and contributing to open source
 
 ---
 
-## Connect with Me  
+## 🌐 Connect with Me  
 <p align="center">
   <a href="mailto:mukeshnarravula14@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
@@ -30,27 +30,27 @@ Building scalable web applications, intelligent systems, and learning by shippin
 
 ## 🚀 Featured Projects  
 
-> Selected repositories that best represent my skills and engineering focus.
+> A selection of repositories that best reflect my engineering skills and interests.
 
-### Auction Socket  
-Real-time, socket-based backend service designed for auctions and live updates.  
+### 🔹 Auction Socket  
+Real-time backend service for auctions and live updates, designed around event-driven communication.  
 **Tech:** Python • WebSockets • Async IO
 
-### Canteen Smart  
-End-to-end canteen management and ordering web application demonstrating full-stack development.  
+### 🔹 Canteen Smart  
+End-to-end canteen management and ordering system demonstrating full-stack application design.  
 **Tech:** TypeScript • Frontend • Backend
 
-### PlagCheck  
+### 🔹 PlagCheck  
 High-performance file similarity and plagiarism detection tool built in Rust using efficient diff algorithms.  
 **Tech:** Rust • Myers Diff • CLI Tooling
 
-### Go Jupyter Converter  
-Lightweight CLI utility for processing and converting Jupyter notebook files.  
+### 🔹 Go Jupyter Converter  
+Lightweight CLI utility for processing and converting Jupyter Notebook files for developer workflows.  
 **Tech:** Go • CLI • Developer Tooling
 
 ---
 
-## Tech Stack  
+## 🛠 Tech Stack  
 
 ### Languages & Frameworks
 ![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)
@@ -77,7 +77,7 @@ Lightweight CLI utility for processing and converting Jupyter notebook files.
 
 ---
 
-## GitHub Stats  
+## 📊 GitHub Stats  
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=mukesh1352&show_icons=true&theme=radical&hide_border=true" height="170"/>
@@ -90,4 +90,4 @@ Lightweight CLI utility for processing and converting Jupyter notebook files.
 
 ---
 
-<h3 align="center">🚀 Exploring AI, backend systems, and high-performance software</h3>
+<h3 align="center">🚀 Building backend systems, developer tools, and performance-focused software</h3>
