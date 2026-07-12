@@ -1,0 +1,544 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="1600"
+    height="520"
+    viewBox="0 0 1600 520"
+    fill="none">
+
+<defs>
+
+    <!-- =========================
+         Window Material
+    ========================== -->
+
+    <linearGradient
+        id="windowMaterial"
+        x1="0%"
+        y1="0%"
+        x2="0%"
+        y2="100%">
+
+        <stop offset="0%" stop-color="#181C25" stop-opacity="0.95"/>
+
+        <stop offset="100%" stop-color="#10131B" stop-opacity="0.95"/>
+
+    </linearGradient>
+
+    <!-- =========================
+         Glass Reflection
+    ========================== -->
+
+    <linearGradient
+        id="glassReflection"
+        x1="0%"
+        y1="0%"
+        x2="100%"
+        y2="100%">
+
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".08"/>
+
+        <stop offset="45%" stop-color="#FFFFFF" stop-opacity=".025"/>
+
+        <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+    </linearGradient>
+
+    <!-- =========================
+         Window Highlight
+    ========================== -->
+
+    <linearGradient
+        id="windowHighlight"
+        x1="0%"
+        y1="0%"
+        x2="0%"
+        y2="100%">
+
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".09"/>
+
+        <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+
+    </linearGradient>
+
+    <!-- =========================
+         Hairline Border
+    ========================== -->
+
+    <linearGradient
+        id="windowBorder"
+        x1="0%"
+        y1="0%"
+        x2="100%"
+        y2="100%">
+
+        <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".12"/>
+
+        <stop offset="50%" stop-color="#FFFFFF" stop-opacity=".04"/>
+
+        <stop offset="100%" stop-color="#FFFFFF" stop-opacity=".08"/>
+
+    </linearGradient>
+
+    <!-- =========================
+         Purple Ambient Light
+    ========================== -->
+
+    <radialGradient
+        id="purpleGlow"
+        cx="50%"
+        cy="50%"
+        r="50%">
+
+        <stop offset="0%" stop-color="#8B5CF6" stop-opacity=".20"/>
+
+        <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+
+    </radialGradient>
+
+    <!-- =========================
+         Indigo Ambient Light
+    ========================== -->
+
+    <radialGradient
+        id="indigoGlow"
+        cx="50%"
+        cy="50%"
+        r="50%">
+
+        <stop offset="0%" stop-color="#4F46E5" stop-opacity=".18"/>
+
+        <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+
+    </radialGradient>
+
+    <!-- =========================
+         Background Blur
+    ========================== -->
+
+    <filter
+        id="blurLarge"
+        x="-50%"
+        y="-50%"
+        width="200%"
+        height="200%">
+
+        <feGaussianBlur stdDeviation="80"/>
+
+    </filter>
+
+    <!-- =========================
+         Window Shadow
+    ========================== -->
+
+    <filter
+        id="windowShadow"
+        x="-40%"
+        y="-40%"
+        width="180%"
+        height="180%">
+
+        <feDropShadow
+            dx="0"
+            dy="32"
+            stdDeviation="34"
+            flood-color="#000000"
+            flood-opacity=".22"/>
+
+    </filter>
+
+    <!-- =========================
+         Noise Texture
+    ========================== -->
+
+    <filter id="noise">
+
+        <feTurbulence
+            type="fractalNoise"
+            baseFrequency="0.82"
+            numOctaves="2"
+            stitchTiles="stitch"
+            result="noise"/>
+
+        <feColorMatrix
+            in="noise"
+            type="matrix"
+            values="
+            0 0 0 0 1
+            0 0 0 0 1
+            0 0 0 0 1
+            0 0 0 .018 0"/>
+
+    </filter>
+
+    <!-- =========================
+         Window Clip
+    ========================== -->
+
+    <clipPath id="windowClip">
+
+        <rect
+            x="48"
+            y="48"
+            width="1504"
+            height="424"
+            rx="32"
+            ry="32"/>
+
+    </clipPath>
+
+</defs>
+      <!-- ========================================= -->
+    <!-- Ambient Lighting -->
+    <!-- ========================================= -->
+
+    <circle
+        cx="1350"
+        cy="120"
+        r="240"
+        fill="url(#purpleGlow)"
+        filter="url(#blurLarge)"
+        opacity="0.95"/>
+
+    <circle
+        cx="1460"
+        cy="430"
+        r="200"
+        fill="url(#indigoGlow)"
+        filter="url(#blurLarge)"
+        opacity="0.85"/>
+
+    <!-- ========================================= -->
+    <!-- Floating macOS Window -->
+    <!-- ========================================= -->
+
+    <g filter="url(#windowShadow)">
+
+        <!-- Window Material -->
+
+        <rect
+            x="48"
+            y="48"
+            width="1504"
+            height="424"
+            rx="32"
+            fill="url(#windowMaterial)"/>
+
+        <!-- Glass Reflection -->
+
+        <rect
+            x="48"
+            y="48"
+            width="1504"
+            height="424"
+            rx="32"
+            fill="url(#glassReflection)"/>
+
+        <!-- Noise -->
+
+        <rect
+            x="48"
+            y="48"
+            width="1504"
+            height="424"
+            rx="32"
+            clip-path="url(#windowClip)"
+            filter="url(#noise)"
+            opacity=".35"/>
+
+        <!-- Top Reflection -->
+
+        <path
+            d="
+                M48 48
+                H1552
+                V118
+                C1180 190 720 135 48 92
+                Z
+            "
+            fill="url(#windowHighlight)"
+            clip-path="url(#windowClip)"/>
+
+        <!-- Outer Border -->
+
+        <rect
+            x="48.5"
+            y="48.5"
+            width="1503"
+            height="423"
+            rx="31.5"
+            fill="none"
+            stroke="url(#windowBorder)"
+            stroke-width="1"/>
+
+        <!-- Inner Highlight -->
+
+        <rect
+            x="49.5"
+            y="49.5"
+            width="1501"
+            height="421"
+            rx="30.5"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-opacity=".025"
+            stroke-width="1"/>
+
+        <!-- ========================================= -->
+        <!-- Title Bar -->
+        <!-- ========================================= -->
+
+        <rect
+            x="48"
+            y="48"
+            width="1504"
+            height="56"
+            rx="32"
+            fill="#1C202B"
+            fill-opacity=".45"/>
+
+        <!-- Bottom Edge -->
+
+        <line
+            x1="48"
+            y1="104"
+            x2="1552"
+            y2="104"
+            stroke="#FFFFFF"
+            stroke-opacity=".025"/>
+
+        <!-- Traffic Lights -->
+
+        <circle
+            cx="76"
+            cy="76"
+            r="6"
+            fill="#FF5F57"/>
+
+        <circle
+            cx="100"
+            cy="76"
+            r="6"
+            fill="#FEBC2E"/>
+
+        <circle
+            cx="124"
+            cy="76"
+            r="6"
+            fill="#28C840"/>
+
+        <!-- Window Title -->
+
+        <text
+            x="800"
+            y="81"
+            text-anchor="middle"
+            font-family="JetBrains Mono, SF Mono, Menlo, monospace"
+            font-size="12"
+            letter-spacing=".6"
+            fill="#9CA3AF">
+
+            README.md
+
+        </text>
+
+    </g>
+      <!-- ========================================= -->
+    <!-- Identity -->
+    <!-- ========================================= -->
+
+    <!-- Name -->
+
+    <text
+        x="128"
+        y="235"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif"
+        font-size="84"
+        font-weight="650"
+        letter-spacing="-3"
+        fill="#FFFFFF">
+
+        Mukesh Narravula
+
+    </text>
+
+    <!-- Role -->
+
+    <text
+        x="130"
+        y="288"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif"
+        font-size="28"
+        font-weight="450"
+        fill="#A1A1AA">
+
+        Software Engineer
+
+    </text>
+
+    <!-- Location -->
+
+    <g>
+
+        <!-- Location Dot -->
+
+        <circle
+            cx="136"
+            cy="332"
+            r="3"
+            fill="#8B5CF6"/>
+
+        <text
+            x="150"
+            y="338"
+            font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Arial, sans-serif"
+            font-size="18"
+            fill="#71717A">
+
+            India
+
+        </text>
+
+    </g>
+      <!-- ========================================= -->
+    <!-- Engineering Blueprint -->
+    <!-- ========================================= -->
+
+    <g opacity="0.045">
+
+        <!-- Outer Frame -->
+
+        <rect
+            x="1125"
+            y="118"
+            width="305"
+            height="240"
+            rx="18"
+            fill="none"
+            stroke="#FFFFFF"
+            stroke-width="1"/>
+
+        <!-- Header -->
+
+        <text
+            x="1150"
+            y="150"
+            font-family="JetBrains Mono, SF Mono, Menlo, monospace"
+            font-size="12"
+            fill="#FFFFFF">
+
+            SYSTEM
+
+        </text>
+
+        <!-- Architecture -->
+
+        <rect
+            x="1160"
+            y="175"
+            width="235"
+            height="34"
+            rx="10"
+            fill="none"
+            stroke="#FFFFFF"/>
+
+        <text
+            x="1278"
+            y="197"
+            text-anchor="middle"
+            font-family="JetBrains Mono, SF Mono, Menlo, monospace"
+            font-size="11"
+            fill="#FFFFFF">
+
+            APPLICATION
+
+        </text>
+
+        <line
+            x1="1278"
+            y1="209"
+            x2="1278"
+            y2="232"
+            stroke="#FFFFFF"/>
+
+        <rect
+            x="1195"
+            y="232"
+            width="165"
+            height="30"
+            rx="9"
+            fill="none"
+            stroke="#FFFFFF"/>
+
+        <text
+            x="1278"
+            y="252"
+            text-anchor="middle"
+            font-family="JetBrains Mono, SF Mono, Menlo, monospace"
+            font-size="10"
+            fill="#FFFFFF">
+
+            BACKEND
+
+        </text>
+
+        <line
+            x1="1278"
+            y1="262"
+            x2="1278"
+            y2="285"
+            stroke="#FFFFFF"/>
+
+        <rect
+            x="1218"
+            y="285"
+            width="120"
+            height="28"
+            rx="8"
+            fill="none"
+            stroke="#FFFFFF"/>
+
+        <text
+            x="1278"
+            y="303"
+            text-anchor="middle"
+            font-family="JetBrains Mono, SF Mono, Menlo, monospace"
+            font-size="10"
+            fill="#FFFFFF">
+
+            DATA
+
+        </text>
+
+    </g>
+
+    <!-- Bottom Right -->
+
+    <text
+        x="1430"
+        y="448"
+        text-anchor="end"
+        font-family="JetBrains Mono, SF Mono, Menlo, monospace"
+        font-size="11"
+        fill="#9CA3AF"
+        opacity=".28">
+
+        Crafted with simplicity.
+
+    </text>
+      <!-- ========================================= -->
+    <!-- Build Information -->
+    <!-- ========================================= -->
+
+    <text
+        x="128"
+        y="448"
+        font-family="JetBrains Mono, SF Mono, Menlo, monospace"
+        font-size="11"
+        fill="#9CA3AF"
+        opacity=".28">
+
+        v1.0 · Engineering Portfolio
+
+    </text>
+
+</svg>
