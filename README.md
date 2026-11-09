@@ -10,7 +10,7 @@
 
 <br>
 
-<a href="https://portfolio-chi-smoky-91.vercel.app/">
+<a href="[https://portfolio-chi-smoky-91.vercel.app/](https://portfolio-dc13.vercel.app/)">
 <img src="https://img.shields.io/badge/Portfolio-1d1d1f?style=for-the-badge&logo=safari&logoColor=white"/>
 </a>
 <a href="https://github.com/mukesh1352">
